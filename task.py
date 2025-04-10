@@ -2,8 +2,11 @@ import playsound as p
 import tkinter as tk
 
 '''
-list of sound effects:
-lobotomy buzz
+list of sound effects to add:
+hood irony
+ghost of the goon
+
+
 '''
 def lobotomy(event):
     print(event)
