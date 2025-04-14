@@ -2,11 +2,38 @@
 <html>
     <head>
         <style>
+            div.title{
+                text-align: center;
+                
+            }
+            div.image1{
+                
+            }
         </style>
     </head>
+    <script>
+        function bfunction(e) {
+        console.log('click')
+        }
+
+        b = document.getElementById('layer1')
+        b_action = b.addEventListener("click",bfunction)
+    </script>
+    
     <body>
-        <div>
-        
+        <br>
+        <div id="layer1">
+            <div class="title">
+                Welcome to Lucas' soundboard.
+            </div>
+            <div>
+            </div>
         </div>
     </body>
 </html>
+
+
+<!--<audio controls>
+        <source src="chicken jockey.mp3" type="audio/mpeg">
+    </audio>
+-->
